@@ -1,6 +1,6 @@
 # U0 - Nivelamento - Exercícios
 
-Lista de exercícios da Unidade 0 - Nivelamento. ARQUIVO ALTERADO
+Lista de exercícios da Unidade 0 - Nivelamento. ARQUIVO ALTERADO NOVO
 
 ## Exercícios
 
