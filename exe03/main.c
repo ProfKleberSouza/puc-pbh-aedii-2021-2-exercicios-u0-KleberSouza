@@ -1,8 +1,38 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
+  //ENTRADA
+   int num;
+   scanf("%i", &num);
+
+  // PROCESSAMENTO
+  if(num == 0){
+    printf("NUMERO NEUTRO\n");
+  }else{
+
+    if(num%2==0){
+
+      printf("NUMERO PAR ");
+
+      if(num < 0){
+        printf("NEGATIVO\n");
+      }else{
+        printf("POSITIVO\n");
+      }
+
+    }else{
+      printf("NUMERO IMPAR ");
+
+      if(num < 0){
+        printf("NEGATIVO\n");
+      }else{
+        printf("POSITIVO\n");
+      }
+
+
+    }
+
+  }
+
    return 0;
 }
